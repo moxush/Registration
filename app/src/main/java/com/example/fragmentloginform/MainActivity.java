@@ -3,6 +3,7 @@ package com.example.fragmentloginform;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         if(getSupportActionBar()!=null)
         {
             getSupportActionBar().hide();
+            Toast.makeText(this, "hehhehe", Toast.LENGTH_SHORT).show();
         }
     }
 }
